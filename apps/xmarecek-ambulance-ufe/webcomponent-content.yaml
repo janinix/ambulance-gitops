@@ -4,7 +4,10 @@ metadata:
   name: xmarecek-ambulance-ufe-content
 spec:
   microFrontend: xmarecek-ambulance-ufe
-  element: xmarecek-ambulance-wl-list
+  element: xmarecek-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: ./xmarecek-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
