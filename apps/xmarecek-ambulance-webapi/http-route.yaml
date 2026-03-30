@@ -33,3 +33,18 @@ spec:
           kind: Service
           name: xmarecek-openapi-ui
           port: 80
+    - matches:
+        - path:
+            type: Exact
+            value: /xmarecek-openapi
+      filters:
+      - type: URLRewrite
+        urlRewrite:
+          path:
+            type: ReplaceFullPath
+            replaceFullPath: /openapi
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: xmarecek-ambulance-webapi
+          port: 80
