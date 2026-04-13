@@ -7,6 +7,7 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: xmarecek-ambulance-wl
+    wac-fiit.github.io/project: xmarecek-ambulance-wl 
   includeSelectors: true
   includeTemplates: true
 

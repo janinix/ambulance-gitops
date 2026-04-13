@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xmarecek-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich xmarecek"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Ján Mareček" # Zadajte mená autorov
+  azureLink: "https://janinix.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/janinix/ambulance-ufe"
+  backendRepoUrl: "  https://github.com/janinix/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/janinix/ambulance-gitops"
