@@ -8,5 +8,5 @@ spec:
   authors: "Ján Mareček" # Zadajte mená autorov
   azureLink: "https://janinix.azurewebsites.net"
   frontendRepoUrl: "https://github.com/janinix/ambulance-ufe"
-  backendRepoUrl: "  https://github.com/janinix/ambulance-webapi"
+  backendRepoUrl: "https://github.com/janinix/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/janinix/ambulance-gitops"
