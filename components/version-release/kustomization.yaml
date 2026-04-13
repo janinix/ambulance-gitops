@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: janinix/ambulance-ufe
   newName: janinix/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: janinix/ambulance-wl-webapi
   newName: janinix/ambulance-wl-webapi
   newTag: 1.0.1
