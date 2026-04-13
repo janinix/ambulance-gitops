@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xmarecek-ambulance-ufe
+- ../../../apps/xmarecek-ambulance-webapi
 
 
 components:
